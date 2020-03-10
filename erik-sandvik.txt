@@ -5,42 +5,133 @@ https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+        HTML that gives meaning to our content - (nav, footer, h1-h6), helps with usability, SEO, and access
+
     2. What is HTML used for? 
+        Adding markup to content on web pages.
+
     3. What is an attribute and where do we put it? 
+        Put in elements, they add characteristics to the elements (color, height, etc).
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+        Used for the main heading of a web page, ideally only used once to note the most important heading.
+
     5. Name two tags that have required attributes
+        img requires an 'src' attribute. <a> requires an 'href' attribute.
+
     6. What do we put in the head of our HTML document? 
+        Information about the page that's not necessary to be seen by the user: metadata, links to other files like style.css, etc.
+
     7. What is an id? 
+        A way of classifying a single element, higher specificity than class.
+
     8. What elements can I add an id to? 
+        Any HTML element.
+
     9. How many times can I use the same id on a page? 
+        Only once.
+
     10. What is a class? 
+        Identify multiple html elements as related or sharing the same attributes.
+
     11. What elements can I add a class to? 
+        Any HTML element.
+
     12. How many times can I use the same class on a page? 
+        Multiple times.
+
     13. How do I get my link to open in a new tab?
+        Add a 'target="_blank"' to your links.
+
     14. What is the alt attribute used for? 
+        Used as alternate text for images/videos if they fail to load, and can assist with screenreader programs.
+
     15. How do I reference an id?
+        Set id=" " in the opening tag. example: <p id="paragraph-text"> 
+
     16. What is the difference between a section and a div
+        section is semantic, used for larger chunks of text that are related. div is not semantic and is simply used to divide an element or groups of elements from the rest of the web page.
+        
     17. What is CSS used for? 
+        Cascading Style Sheets - used to style and organize the content of a page. (Paint, lighting, decor of a house).
+
     18. How to we select an element? Example - every h2 on the page
+        Name of element + open and close curly braces. example: h2 {     }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id is used only once, higher specificity - used when talking about a specific city, individual, etc. 
+        class can be used on multiple elements, lower specificity - used when talking about bigger groups like countries, for example.
+
     20. How do we select classes in CSS?
+        period . + className and open/closed curly braces. example: .europe { }
+
     21. How do we select a p element with a single class of “human””?
+        p.human {}
+
     22. What is a parent child selector? When would this be useful? 
+        When you want to style an element that is nested, you can name the 'parent' then 'child' elements in CSS to style.
+
     23. How do you select all links within a div with the class of sidebar?
+        div.sidebar {}
+
     24. What is a pseudo selector?
+        CSS classes used to define the state of an element (hover, valid, etc).
+
     25. What do we use the change the spacing between lines?
+        line-height.
+
     26. What do we use to change the spacing between letters?
+        letter-spacing.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:uppercase, text-transform: lowercase, text-transform: capitalize.
+
     28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border-style: dotted;
+            border-width: 1px;
+            border-color: black;
+        }
+
     29. How do I select everything on the page? 
+        * {
+
+        }
     30. How do I write a comment in CSS?
+        /* YOUR COMMENT HERE */
+
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm - be careful because there is no warning and no recovery option.
+
     34. Why should I use version control? 
+        Helps with when you need to go back in time to make adjustments, also helps with working on group projects.
+
     35. How often should I commit to github?
+        ~every 20 minutes or so, or when you get something to work.
+
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name 
+
     37. Walk me through Lambda's git flow. 
+        1. Create fork from repo
+        2. Add collaborators
+        3. Choose which directory you want to save the forked clone (cd)
+        4. Clone forked repo to your machine (clone <clone-url>)
+        5. cd into the new repo (cd <repo url>) 
+        6. Make new branch (git checkout -b "<firstName-lastName>')
+        7. Open files in VS code (code .)
+        8. Make your edits, changes, etc in VS code and save
+        9. Add saved docs (add . or add <file-name>)
+        10. Commit saved docs & add comment (git commit -m "<message detailing changes>")
+        11. Push to Github repo using your branch (git pust -u origin <branch-name>)
+        12. View repo and branches in Github
+
 
 Stretch Questions
 
