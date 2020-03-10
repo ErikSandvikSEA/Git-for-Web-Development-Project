@@ -1,11 +1,11 @@
+Instructor's codepen:
 https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 
-My codepen
-
+My codepen:
 # https://codepen.io/eriksandviksea/pen/jOPYgrj
 
 
-<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!-- review questions to Submit in today's file first-lastname.txt --> 
 <!--
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
@@ -141,10 +141,22 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        inline elements don't automatically go onto a new line. block elements go onto a new line (like <p>)
+
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        It is positioned compared to it's first positioned parent. 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+         give it a witdh value and add margin or padding at 100%
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Display block default: address, main, footer
+        Display inline by default: a, strong
+        Inline-block: img
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        Elements have margin, border, padding, width, and height. all of these can be manipulated to make the elements look the way the programmer wants.
+        The fix for this is using box-sizing: border-box
 
 
 
